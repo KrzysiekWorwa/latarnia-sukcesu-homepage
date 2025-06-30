@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Burger, MobileMenu, Navbar, NavItem, NavLinks, NavLogo, NavWrapper, FacebookIcon, InstagramIcon, NavIcons } from "./styled";
+import { Burger, MobileMenu, Navbar, NavItem, NavLinks, NavLogo, NavWrapper, FacebookIcon, InstagramIcon, NavIcons, ContactButton } from "./styled";
 import Logo from "./financial.png"
 import { Link } from "react-scroll";
 
@@ -8,7 +8,7 @@ const NavigationBar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <Navbar>
+        <Navbar $open={isOpen}>
             <NavWrapper>
                 <Link to="home" smooth={true} duration={600} offset={-90}>
                     <NavLogo src={Logo} alt="Logo" />
@@ -44,6 +44,11 @@ const NavigationBar = () => {
                         Partnerzy
                     </NavItem>
                 </NavLinks>
+                <NavIcons>
+                    <ContactButton>
+                        Kontakt
+                    </ContactButton>
+                </NavIcons>
 
                 <MobileMenu $open={isOpen}>
                     <NavItem to="home" smooth={true} duration={600} offset={-50}>

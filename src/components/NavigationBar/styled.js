@@ -4,16 +4,19 @@ import { Link } from "react-scroll";
 
 export const Navbar = styled.nav`
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 96%;
   height: 90px;
-  background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(10px); 
+  background: #FBFBFE;
   z-index: 1000;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+
+    border-bottom-left-radius: ${({ $open }) => ($open ? "0" : "20px")};
+  border-bottom-right-radius: ${({ $open }) => ($open ? "0" : "20px")};
 
         @media (max-width: 1050px) {
         height: 60px;
@@ -24,7 +27,6 @@ export const Navbar = styled.nav`
 
 export const NavWrapper = styled.div`
     width: 100%;
-    max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
@@ -35,7 +37,7 @@ export const NavWrapper = styled.div`
 
 export const NavLogo = styled.img`
     height: auto;
-    width: 85px;
+    width: 70px;
     cursor: pointer;
     margin-top: 4px;
 
@@ -60,7 +62,7 @@ export const NavLinks = styled.div`
 export const NavItem = styled(Link)`
   font-weight: 500;
   cursor: pointer;
-  color: white;
+  color: rgb(93, 103, 122);
   text-decoration: none;
   transition: color 0.2s ease;
   text-transform: uppercase;
@@ -71,7 +73,7 @@ export const NavItem = styled(Link)`
   }
 
   &:hover {
-    color:rgb(221, 221, 221);
+    color:rgb(84, 123, 189);
 
          @media (max-width: 1050px) {
         color:rgb(107, 107, 107);
@@ -113,6 +115,8 @@ export const MobileMenu = styled.div`
         padding: 20px 0;
         gap: 15px;
         z-index: 999;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 `;
 
@@ -125,4 +129,23 @@ export const NavIcons = styled.div`
   }
 `;
 
+export const ContactButton = styled.a`
+  padding: 14px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  background:rgb(84, 123, 189);
+  border: 1px solid;
+  border-color:rgb(84, 123, 189);
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s;
+  align-self: flex-start;
+  font-size: 25px;
+
+      &:hover {
+        background: rgb(0, 28, 77) 100%;
+        border-color:rgb(0, 28, 77) 100%;
+    }
+`;
 

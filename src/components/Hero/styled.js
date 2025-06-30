@@ -1,33 +1,18 @@
 import styled from "styled-components";
 
 export const HeroSection = styled.section`
-    height: 100vh;
     padding: 0 60px;
+    padding-bottom: 60px;
     width: 100%;
-
-        @media (max-width: 767px) {
-            padding: 60px 20px;
-            height: auto;
-    }
-
-`;
-
-export const HeroBackground = styled.div`
     background: linear-gradient(180deg,rgb(84, 123, 189) 0%, rgb(0, 28, 77) 100%);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    flex: none;
-    height: 85%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
 
-    @media (max-width: 991px) {
-      height: min-content;
+        @media (max-width: 767px) {
+            padding: 0 20px;
+            height: auto;
     }
-    
+
 `;
 
 export const HeroWrapper = styled.div`
@@ -47,8 +32,12 @@ export const HeroWrapper = styled.div`
     @media (max-width: 991px) {
       flex-direction: column;
       align-items: center;
-      padding: 60px 20px;
+      padding: 80px 20px;
+      padding-top: 80px;
     }
+    @media (max-width: 767px) {
+      padding-bottom: 40px;
+}
 `;
 
 export const HeroContent = styled.div`
@@ -68,6 +57,11 @@ export const HeroImage = styled.div`
   max-width: 546px;
   position: relative;
   z-index: 1;
+  margin-bottom: -110px;
+
+          @media (max-width: 767px) {
+            margin-bottom: 0;
+}
 
   img {
     max-width: 546px;
@@ -113,6 +107,11 @@ export const HeroDescription = styled.p`
   }
 `;
 
+export const ButtonWrapper = styled.div`
+  text-align: center;
+  margin-top: 30px;
+`;
+
 export const HeroButton = styled.a`
   padding: 14px 30px;
   text-decoration: none;
@@ -132,4 +131,8 @@ export const HeroButton = styled.a`
         border-color: rgb(84, 123, 189);
         color: white;
     }
+      @media (max-width: 767px) {
+        font-size: 18px;
+}
+
 `;
