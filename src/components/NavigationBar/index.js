@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Burger, MobileMenu, Navbar, NavItem, NavLinks, NavLogo, NavWrapper, FacebookIcon, InstagramIcon, NavIcons, ContactButton } from "./styled";
+import { Burger, MobileMenu, Navbar, NavItem, NavLinks, NavLogo, NavWrapper, NavIcons, ContactButton } from "./styled";
 import Logo from "./financial.png"
 import { Link } from "react-scroll";
 

@@ -60,12 +60,11 @@ export const NavLinks = styled.div`
 `;
 
 export const NavItem = styled(Link)`
-  font-weight: 500;
+  font-size: 20px;
   cursor: pointer;
   color: rgb(93, 103, 122);
   text-decoration: none;
   transition: color 0.2s ease;
-  text-transform: uppercase;
   text-align: center;
 
      @media (max-width: 1050px) {

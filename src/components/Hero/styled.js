@@ -22,7 +22,7 @@ export const HeroWrapper = styled.div`
     flex-wrap: nowrap;
     gap: 60px;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     position: relative;
     margin: 0 auto;
     padding-top: 170px;
@@ -76,7 +76,7 @@ export const HeroImage = styled.div`
 `;
 
 export const HeroHeader = styled.h1`
-    font-size: 64px;
+    font-size: 70px;
     text-align: left;
     margin: 25px 0;
 
@@ -94,17 +94,6 @@ export const HeroSubHeader = styled.h2`
         @media (max-width: 767px) {
         font-size: 18px;
 }
-`;
-
-export const HeroDescription = styled.p`
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 16px;
-    text-align: left;
-
-  @media (max-width: 767px) {
-    font-size: 16px;
-  }
 `;
 
 export const ButtonWrapper = styled.div`

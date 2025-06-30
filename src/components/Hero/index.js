@@ -1,4 +1,4 @@
-import { ButtonWrapper, HeroBackground, HeroButton, HeroContent, HeroDescription, HeroHeader, HeroImage, HeroSection, HeroSubHeader, HeroWrapper } from "./styled";
+import { ButtonWrapper, HeroButton, HeroContent, HeroHeader, HeroImage, HeroSection, HeroSubHeader, HeroWrapper } from "./styled";
 import heroImage from "./hero-stock.webp";
 
 const Hero = () => (
