@@ -1,5 +1,5 @@
 import { HeroBackground, HeroButton, HeroContent, HeroDescription, HeroHeader, HeroImage, HeroSection, HeroSubHeader, HeroWrapper } from "./styled";
-import heroImage from "./hero.webp";
+import heroImage from "./hero-stock.webp";
 
 const Hero = () => (
     <HeroSection id="home">

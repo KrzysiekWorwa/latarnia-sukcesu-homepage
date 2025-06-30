@@ -17,7 +17,7 @@ export const HeroBackground = styled.div`
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     flex: none;
-    height: 80%;
+    height: 85%;
     left: 0;
     position: absolute;
     right: 0;
