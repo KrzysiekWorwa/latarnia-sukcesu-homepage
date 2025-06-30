@@ -1,31 +1,33 @@
 import styled from "styled-components";
 
 export const HeroSection = styled.section`
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 0px;
     height: 100vh;
-    justify-content: center;
-    overflow: hidden;
-    padding: 170px 0 60px;
-    position: relative;
+    padding: 0 60px;
     width: 100%;
+
+        @media (max-width: 767px) {
+            padding: 60px 20px;
+            height: auto;
+    }
 
 `;
 
 export const HeroBackground = styled.div`
-    background: linear-gradient(180deg, var(--token-d09dbddc-bae0-464f-8a47-9094dda9c7cd, #4f7ac2) 0%, var(--token-d8251216-3fe5-4bcc-90da-d20c92d0e2e3, rgb(0, 23, 63)) 100%);
+    background: linear-gradient(180deg,rgb(84, 123, 189) 0%, rgb(0, 28, 77) 100%);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     flex: none;
     height: 80%;
     left: 0;
-    overflow: hidden;
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 0;
+
+    @media (max-width: 991px) {
+      height: min-content;
+    }
+    
 `;
 
 export const HeroWrapper = styled.div`
@@ -33,45 +35,67 @@ export const HeroWrapper = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 200px;
+    gap: 60px;
     justify-content: space-between;
-    padding: 0 60px;
+    align-items: flex-start;
     position: relative;
+    margin: 0 auto;
+    padding-top: 170px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    @media (max-width: 991px) {
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px;
+    }
 `;
 
 export const HeroContent = styled.div`
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 0;
-    justify-content: flex-start;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
 `;
 
 export const HeroImage = styled.div`
   display: flex;
-  
-  height: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 546px;
+  position: relative;
+  z-index: 1;
 
   img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 10px;
+    max-width: 546px;
+    max-height: 730px;
+    width: 100%;
+    height: auto;   
+    object-fit: cover;
+    border-radius: 30px;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   }
 `;
 
 export const HeroHeader = styled.h1`
     font-size: 64px;
     text-align: left;
+    margin: 25px 0;
+
     
     @media (max-width: 767px) {
-font-size: 32px;
-}
+    font-size: 32px;
+    }
 `;
 
 export const HeroSubHeader = styled.h2`
     font-size: 24px;
     text-align: left;
+    margin: 0;
     
         @media (max-width: 767px) {
         font-size: 18px;
@@ -87,4 +111,25 @@ export const HeroDescription = styled.p`
   @media (max-width: 767px) {
     font-size: 16px;
   }
+`;
+
+export const HeroButton = styled.a`
+  padding: 14px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  background:  #FBFBFE;
+  border: 1px solid;
+  border-color: #FBFBFE;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s;
+  align-self: flex-start;
+  font-size: 25px;
+
+      &:hover {
+        background:rgb(84, 123, 189);
+        border-color: rgb(84, 123, 189);
+        color: white;
+    }
 `;
