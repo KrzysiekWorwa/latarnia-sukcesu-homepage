@@ -4,7 +4,8 @@ export const HeroSection = styled.section`
     padding: 0 60px;
     padding-bottom: 60px;
     width: 100%;
-    background: linear-gradient(180deg,rgb(84, 123, 189) 0%, rgb(0, 28, 77) 100%);
+    background: #070269;
+    background: linear-gradient(178deg, rgba(7, 2, 105, 1) 0%, rgba(9, 9, 121, 1) 22%, rgba(0, 212, 255, 1) 100%);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 
@@ -116,8 +117,8 @@ export const HeroButton = styled.a`
   font-size: 25px;
 
       &:hover {
-        background:rgb(84, 123, 189);
-        border-color: rgb(84, 123, 189);
+        background:#090979;
+        border-color: #090979;
         color: white;
     }
       @media (max-width: 767px) {
