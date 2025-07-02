@@ -18,8 +18,8 @@ export const HeroWrapper = styled.div`
     max-width: 1440px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 60px;
+    grid-template-columns: 1fr auto;
+    gap: 80px;
     justify-content: space-between;
     text-align: center;
     align-items: center;
@@ -52,7 +52,7 @@ export const HeroContent = styled.div`
 
 export const HeroImage = styled.img`
     width: clamp(128px, 40vw, 560px);
-    height: clamp(128px, 50vw, 730px);
+    height: clamp(128px, 55vw, 730px);
     object-fit: cover;
     border-radius: 30px;
     display: block;

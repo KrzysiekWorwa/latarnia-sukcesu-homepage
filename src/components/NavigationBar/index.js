@@ -25,22 +25,22 @@ const NavigationBar = () => {
                     <NavItem to="home" smooth={true} duration={600} offset={-90}>
                         Home
                     </NavItem>
-                    <NavItem to="about" smooth={true} duration={600} offset={-90}>
+                    <NavItem to="about" smooth={true} duration={600} offset={-150}>
                         O nas
                     </NavItem>
-                    <NavItem to="rejsy-po-jeziorze" smooth={true} duration={800} offset={-90}>
+                    <NavItem to="rejsy-po-jeziorze" smooth={true} duration={800} offset={-150}>
                         Rejsy gondolami
                     </NavItem>
-                    <NavItem to="domki" smooth={true} duration={1000} offset={-90}>
+                    <NavItem to="domki" smooth={true} duration={1000} offset={-150}>
                         Noclegi
                     </NavItem>
-                    <NavItem to="rowery" smooth={true} duration={1200} offset={-90}>
+                    <NavItem to="rowery" smooth={true} duration={1200} offset={-150}>
                         Wypożyczalnia rowerów
                     </NavItem>
-                    <NavItem to="address" smooth={true} duration={1400} offset={-90}>
+                    <NavItem to="address" smooth={true} duration={1400} offset={-150}>
                         Dojazd i kontakt
                     </NavItem>
-                    <NavItem to="partners" smooth={true} duration={1600} offset={-90}>
+                    <NavItem to="partners" smooth={true} duration={1600} offset={-150}>
                         Partnerzy
                     </NavItem>
                 </NavLinks>

@@ -9,7 +9,7 @@ export const Navbar = styled.nav`
   transform: translateX(-50%);
   width: 96%;
   height: 90px;
-  background-color: rgb(205 205 205 / 10%);
+  background-color: rgb(0 0 0 / 30%);
   backdrop-filter: blur(10px); 
   z-index: 1000;
   display: flex;
@@ -72,7 +72,7 @@ export const NavItem = styled(Link)`
   }
 
   &:hover {
-    color:#090979;
+    color: rgb(179, 179, 179);
 
          @media (max-width: 1050px) {
         color:#090979;
