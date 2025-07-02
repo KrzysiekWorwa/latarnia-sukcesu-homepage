@@ -25,11 +25,9 @@ const Hero = () => (
                         </ButtonWrapper>
                     </StaggeredItem>
                 </HeroContent>
-                    <HeroImage>
-                        <StaggeredItem>
-                        <img src={heroImage} alt="zdjęcie przedstawiające właściciela" />
-                        </StaggeredItem>
-                    </HeroImage>
+                <StaggeredItem>
+                    <HeroImage src={heroImage} alt="zdjęcie przedstawiające właściciela" />
+                </StaggeredItem>
             </HeroWrapper>
         </StaggeredContainer>
     </HeroSection>

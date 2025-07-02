@@ -3,12 +3,11 @@ import styled from "styled-components";
 export const HeroSection = styled.section`
     padding: 0 60px;
     padding-bottom: 60px;
-    width: 100%;
     background: linear-gradient(180deg, #4f7ac2 0%, rgb(0, 23, 63) 100%);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 
-        @media (max-width: 767px) {
+        @media (max-width: 991px) {
             padding: 0 20px;
             height: auto;
     }
@@ -17,25 +16,23 @@ export const HeroSection = styled.section`
 
 export const HeroWrapper = styled.div`
     max-width: 1440px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
     gap: 60px;
     justify-content: space-between;
+    text-align: center;
     align-items: center;
     position: relative;
-    margin: 0 auto;
     padding-top: 170px;
-    padding-left: 60px;
-    padding-right: 60px;
 
     @media (max-width: 991px) {
-      flex-direction: column;
+      grid-template-columns: 1fr;
       align-items: center;
-      padding: 80px 10px;
+      padding: 0 10px;
       padding-top: 80px;
     }
-    @media (max-width: 767px) {
+    @media (max-width: 991px) {
       padding-bottom: 40px;
 }
 `;
@@ -53,30 +50,21 @@ export const HeroContent = styled.div`
 }
 `;
 
-export const HeroImage = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 546px;
-  position: relative;
-  z-index: 1;
-  margin-bottom: -110px;
-
-    @media (max-width: 767px) {
-      margin-bottom: 0;
-}
-
-  img {
-    max-width: 546px;
-    max-height: 730px;
-    width: 100%;
-    height: auto;   
+export const HeroImage = styled.img`
+    width: clamp(128px, 40vw, 560px);
+    height: clamp(128px, 50vw, 730px);
     object-fit: cover;
     border-radius: 30px;
     display: block;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  }
+    margin-bottom: -140px;
+
+    @media (max-width: 991px) {
+        width: 100%;
+        height: 410px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 `;
 
 export const HeroHeader = styled.h1`
