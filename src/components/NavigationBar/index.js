@@ -31,8 +31,8 @@ const NavigationBar = () => {
                     <NavItem to="cooperation" smooth={true} duration={800} offset={-150}>
                         Współpraca
                     </NavItem>
-                    <NavItem to="domki" smooth={true} duration={1000} offset={-150}>
-                        Noclegi
+                    <NavItem to="team" smooth={true} duration={1000} offset={-150}>
+                        Zespół
                     </NavItem>
                     <NavItem to="rowery" smooth={true} duration={1200} offset={-150}>
                         Wypożyczalnia rowerów
@@ -54,14 +54,14 @@ const NavigationBar = () => {
                     <NavItem to="home" smooth={true} duration={600} offset={-50}>
                         Home
                     </NavItem>
-                    <NavItem to="usługi" smooth={true} duration={600} offset={-310}>
-                        Oferta
+                    <NavItem to="about" smooth={true} duration={600} offset={-310}>
+                        O nas
                     </NavItem>
-                    <NavItem to="rejsy-po-jeziorze" smooth={true} duration={800} offset={-270}>
-                        Rejsy gondolami
+                    <NavItem to="cooperation" smooth={true} duration={800} offset={-270}>
+                        Współpraca
                     </NavItem>
-                    <NavItem to="domki" smooth={true} duration={1000} offset={-270}>
-                        Noclegi
+                    <NavItem to="team" smooth={true} duration={1000} offset={-270}>
+                        Zespół
                     </NavItem>
                     <NavItem to="rowery" smooth={true} duration={1200} offset={-270}>
                         Wypożyczalnia rowerów
