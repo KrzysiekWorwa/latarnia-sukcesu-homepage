@@ -1,6 +1,6 @@
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
 import { Container, ContentHeader, DescriptionLight, ImageWrapper, Section } from "../styled";
-import { List, ListWrapper, SectionBackground, Tile, TileDescription, TileName, TileNumber } from "./styled";
+import { List, ListWrapper, SectionBackground, Tile, TileDescription, TileName, TileNumber, TileWrapper } from "./styled";
 import image from "./images/cooperation.webp"
 
 
@@ -54,6 +54,8 @@ const Cooperation = () => (
                                     <TileDescription>Analizujemy dogłębnie wybrany projekt, abyśmy mogli uzyskać od Ciebie niezbędną dokumentację, nie wyobrażamy sobie sytuacji złożenia niekompletnej dokumentacji</TileDescription>
                                 </Tile>
                             </StaggeredItem>
+                        </List>
+                        <TileWrapper>
                             <StaggeredItem>
                                 <Tile>
                                     <TileNumber>
@@ -72,13 +74,13 @@ const Cooperation = () => (
                                     <TileDescription>W momencie, gdy Twój projekt przeszedł już pierwszy etap, jesteśmy z Tobą podczas jego rozliczania i uzupełniania. Wspólnie staramy się rozwiązać napotkane wyzwania i razem przygotujemy niezbędną dalszą dokumentację</TileDescription>
                                 </Tile>
                             </StaggeredItem>
-                        </List>
+                        </TileWrapper>
                     </ListWrapper>
                 </StaggeredContainer>
             </Container>
         </SectionBackground>
         <ImageWrapper $imageSrc={image} alt="zdjęcie biurka z komputerem" />
-    </Section>
+    </Section >
 );
 
 export default Cooperation;

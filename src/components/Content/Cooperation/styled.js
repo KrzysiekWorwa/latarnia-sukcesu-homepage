@@ -18,7 +18,7 @@ export const SectionBackground = styled.div`
 
 export const List = styled.ul`
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
     list-style: none;
     padding: 20px 0;
@@ -36,6 +36,7 @@ export const Tile = styled.li`
     align-items: center;
     gap: 20px;
     margin: 0;
+    max-width: 420px;
 `;
 
 export const TileNumber = styled.div`
@@ -66,5 +67,22 @@ export const TileDescription = styled.p`
 
     @media (max-width: 767px) {
         margin-top: 16px 0;
+    }
+`;
+
+export const TileWrapper = styled.ul`
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 30px;
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+
+        @media (max-width: 991px) {
+        grid-template-columns: 1fr;
+        grid-gap: 24px;
+        padding: 0;
+        padding-bottom: 10px;
     }
 `;
