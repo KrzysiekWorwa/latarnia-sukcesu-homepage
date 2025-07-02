@@ -33,7 +33,7 @@ export const HeroWrapper = styled.div`
     @media (max-width: 991px) {
       flex-direction: column;
       align-items: center;
-      padding: 80px 20px;
+      padding: 80px 10px;
       padding-top: 80px;
     }
     @media (max-width: 767px) {

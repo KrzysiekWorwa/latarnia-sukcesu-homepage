@@ -1,3 +1,4 @@
+import Content from "./components/Content";
 import Hero from "./components/Hero";
 import NavigationBar from "./components/NavigationBar";
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <NavigationBar />
     <Hero />
+    <Content />
     </>
   );
 }

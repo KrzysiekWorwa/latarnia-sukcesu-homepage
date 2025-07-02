@@ -14,9 +14,10 @@ export const Navbar = styled.nav`
   display: flex;
   text-align: center;
   border-radius: 20px;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 
     border-bottom-left-radius: ${({ $open }) => ($open ? "0" : "20px")};
-  border-bottom-right-radius: ${({ $open }) => ($open ? "0" : "20px")};
+    border-bottom-right-radius: ${({ $open }) => ($open ? "0" : "20px")};
 
         @media (max-width: 1050px) {
         height: 60px;
