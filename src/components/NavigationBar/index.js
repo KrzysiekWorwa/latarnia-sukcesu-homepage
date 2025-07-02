@@ -25,13 +25,13 @@ const NavigationBar = () => {
                     <NavItem to="home" smooth={true} duration={600} offset={-90}>
                         Home
                     </NavItem>
-                    <NavItem to="about" smooth={true} duration={600} offset={-150}>
+                    <NavItem to="about" smooth={true} duration={600} offset={-90}>
                         O nas
                     </NavItem>
                     <NavItem to="cooperation" smooth={true} duration={800} offset={-150}>
                         Współpraca
                     </NavItem>
-                    <NavItem to="team" smooth={true} duration={1000} offset={-150}>
+                    <NavItem to="team" smooth={true} duration={1000} offset={-100}>
                         Zespół
                     </NavItem>
                     <NavItem to="rowery" smooth={true} duration={1200} offset={-150}>
@@ -54,23 +54,14 @@ const NavigationBar = () => {
                     <NavItem to="home" smooth={true} duration={600} offset={-50}>
                         Home
                     </NavItem>
-                    <NavItem to="about" smooth={true} duration={600} offset={-310}>
+                    <NavItem to="about" smooth={true} duration={600} offset={-300}>
                         O nas
                     </NavItem>
-                    <NavItem to="cooperation" smooth={true} duration={800} offset={-270}>
+                    <NavItem to="cooperation" smooth={true} duration={800} offset={-300}>
                         Współpraca
                     </NavItem>
-                    <NavItem to="team" smooth={true} duration={1000} offset={-270}>
+                    <NavItem to="team" smooth={true} duration={1000} offset={-300}>
                         Zespół
-                    </NavItem>
-                    <NavItem to="rowery" smooth={true} duration={1200} offset={-270}>
-                        Wypożyczalnia rowerów
-                    </NavItem>
-                    <NavItem to="address" smooth={true} duration={1400} offset={-320}>
-                        Dojazd i kontakt
-                    </NavItem>
-                    <NavItem to="partners" smooth={true} duration={1600} offset={-350}>
-                        Partnerzy
                     </NavItem>
                 </MobileMenu>
             </NavWrapper>
