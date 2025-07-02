@@ -11,8 +11,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Wrapper = styled.section``;
-
+export const Section = styled.section``;
 
 export const ContentHeader = styled.h2`
     font-size: 60px;

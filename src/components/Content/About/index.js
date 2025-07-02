@@ -1,12 +1,12 @@
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
-import { Button, ButtonWrapper, ContentHeader, Description, Wrapper } from "../styled";
+import { Button, ButtonWrapper, ContentHeader, Description, Section } from "../styled";
 import { AboutUsContent, AboutUsImage, AboutUsSection, AboutWrapper } from "./styled";
 import image from "./images/team.webp"
 
 
 const About = () => (
 
-    <Wrapper id="about">
+    <Section id="about">
         <StaggeredContainer>
             <AboutWrapper>
                 <StaggeredItem>
@@ -47,7 +47,7 @@ const About = () => (
                 </AboutUsContent>
             </AboutUsSection>
         </StaggeredContainer>
-    </Wrapper>
+    </Section>
 );
 
 export default About;

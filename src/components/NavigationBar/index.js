@@ -28,8 +28,8 @@ const NavigationBar = () => {
                     <NavItem to="about" smooth={true} duration={600} offset={-150}>
                         O nas
                     </NavItem>
-                    <NavItem to="rejsy-po-jeziorze" smooth={true} duration={800} offset={-150}>
-                        Rejsy gondolami
+                    <NavItem to="cooperation" smooth={true} duration={800} offset={-150}>
+                        Współpraca
                     </NavItem>
                     <NavItem to="domki" smooth={true} duration={1000} offset={-150}>
                         Noclegi
