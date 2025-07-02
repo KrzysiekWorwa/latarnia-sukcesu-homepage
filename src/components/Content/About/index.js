@@ -2,6 +2,7 @@ import { StaggeredContainer, StaggeredItem } from "../../../animations/staggered
 import { Button, ButtonWrapper, ContentHeader, Description, Section } from "../styled";
 import { AboutUsContent, AboutUsImage, AboutUsSection, AboutWrapper } from "./styled";
 import image from "./images/team.webp"
+import { Link } from "react-scroll";
 
 
 const About = () => (
@@ -24,7 +25,7 @@ const About = () => (
         <StaggeredContainer>
             <AboutUsSection>
                 <StaggeredItem>
-                    <AboutUsImage src={image} alt="team photo" />
+                    <AboutUsImage src={image} alt="Team photo" />
                 </StaggeredItem>
                 <AboutUsContent>
                     <StaggeredItem>
@@ -39,7 +40,7 @@ const About = () => (
                     </StaggeredItem>
                     <StaggeredItem>
                         <ButtonWrapper>
-                            <Button>
+                            <Button as={Link} to="cooperation" smooth={true} duration={800} offset={-150}>
                                 Poznaj ofertę
                             </Button>
                         </ButtonWrapper>

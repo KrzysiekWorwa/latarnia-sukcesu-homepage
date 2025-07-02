@@ -1,6 +1,7 @@
 import { ButtonWrapper, HeroButton, HeroContent, HeroHeader, HeroImage, HeroSection, HeroSubHeader, HeroWrapper } from "./styled";
 import heroImage from "./images/hero-stock.webp";
 import { StaggeredContainer, StaggeredItem } from "../../animations/staggeredFadeIn";
+import { Link } from "react-scroll";
 
 const Hero = () => (
     <HeroSection id="home">
@@ -19,7 +20,7 @@ const Hero = () => (
                     </StaggeredItem>
                     <StaggeredItem>
                         <ButtonWrapper>
-                            <HeroButton>
+                            <HeroButton as={Link} to="about" smooth={true} duration={600} offset={-150}>
                                 Dowiedz się więcej
                             </HeroButton>
                         </ButtonWrapper>
