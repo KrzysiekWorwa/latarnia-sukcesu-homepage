@@ -87,4 +87,8 @@ export const ImageWrapper = styled.div`
   @media (max-width: 991px) {
     height: 300px;
   }
+  
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;
