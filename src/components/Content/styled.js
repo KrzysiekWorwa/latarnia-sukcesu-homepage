@@ -11,7 +11,10 @@ export const Container = styled.div`
   }
 `;
 
-export const Section = styled.section``;
+export const Section = styled.section`
+  display: flex;
+  flex-direction: column;
+`;
 
 export const ContentHeader = styled.h2`
     font-size: 60px;
@@ -55,4 +58,23 @@ export const Button = styled.a`
         background: rgb(0, 153, 255);
         border-color:rgb(0, 153, 255);
     }
+`;
+
+export const ImageWrapper = styled.div`
+margin-top: 25px;
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 500px;
+  background-image: url(${(props) => props.$imageSrc});
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  @media (max-width: 991px) {
+    height: 300px;
+  }
 `;

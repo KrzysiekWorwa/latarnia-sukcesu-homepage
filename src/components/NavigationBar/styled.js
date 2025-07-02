@@ -72,7 +72,7 @@ export const NavItem = styled(Link)`
   }
 
   &:hover {
-    color: rgb(179, 179, 179);
+    color: rgb(217, 217, 217);
 
          @media (max-width: 1050px) {
         color:#090979;
