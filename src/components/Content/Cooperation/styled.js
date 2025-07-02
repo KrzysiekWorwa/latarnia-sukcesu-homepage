@@ -2,6 +2,18 @@ import styled from "styled-components";
 
 export const ListWrapper = styled.div`
     text-align: center;
+    padding-bottom: 50px;
+`;
+
+export const SectionBackground = styled.div`
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  background: rgb(0, 23, 63);
+  color: white;
 `;
 
 export const List = styled.ul`
@@ -44,20 +56,15 @@ export const TileName = styled.h3`
     font-weight: 700;
     font-size: 24px;
     margin: 0;
-
-    @media (max-width: 767px) {
-        font-size: 16px;
-    }
 `;
 
 export const TileDescription = styled.p`
     font-size: 18px;
     line-height: 1.4;
-    color:rgb(90, 103, 119);
+    color:rgb(199, 199, 199);
     margin: 0;
 
     @media (max-width: 767px) {
-        margin-top: 16px;
-        font-size: 16px;
+        margin-top: 16px 0;
     }
 `;

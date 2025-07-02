@@ -35,6 +35,17 @@ export const Description = styled.p`
   }
 `;
 
+export const DescriptionLight = styled.p`
+  color:rgb(199, 199, 199);
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
+`;
+
 export const ButtonWrapper = styled.div`
   padding-top: 20px;
   text-align: center;
@@ -61,7 +72,6 @@ export const Button = styled.a`
 `;
 
 export const ImageWrapper = styled.div`
-margin-top: 25px;
   position: relative;
   width: 100vw;
   left: 50%;
