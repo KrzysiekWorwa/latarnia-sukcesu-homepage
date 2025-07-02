@@ -6,7 +6,6 @@ import image from "./images/cooperation.webp"
 
 const Cooperation = () => (
     <Section>
-
         <SectionBackground>
             <Container>
                 <StaggeredContainer>

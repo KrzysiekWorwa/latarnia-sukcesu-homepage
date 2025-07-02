@@ -37,6 +37,10 @@ export const Tile = styled.li`
     gap: 20px;
     margin: 0;
     max-width: 420px;
+
+     @media (max-width: 991px) {
+        max-width: none;
+    }
 `;
 
 export const TileNumber = styled.div`
@@ -84,5 +88,6 @@ export const TileWrapper = styled.ul`
         grid-gap: 24px;
         padding: 0;
         padding-bottom: 10px;
+        place-items: center;
     }
 `;
