@@ -48,6 +48,10 @@ export const HeroContent = styled.div`
     text-align: center;
     justify-content: center;
     gap: 40px;
+
+      @media (max-width: 767px) {
+        gap: 10px;
+}
 `;
 
 export const HeroImage = styled.div`
@@ -60,8 +64,8 @@ export const HeroImage = styled.div`
   z-index: 1;
   margin-bottom: -110px;
 
-          @media (max-width: 767px) {
-            margin-bottom: 0;
+    @media (max-width: 767px) {
+      margin-bottom: 0;
 }
 
   img {
