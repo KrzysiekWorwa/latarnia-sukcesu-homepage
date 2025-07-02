@@ -15,10 +15,8 @@ export const Navbar = styled.nav`
   display: flex;
   text-align: center;
   border-radius: 20px;
-  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
-
-    border-bottom-left-radius: ${({ $open }) => ($open ? "0" : "20px")};
-    border-bottom-right-radius: ${({ $open }) => ($open ? "0" : "20px")};
+  border-bottom-left-radius: ${({ $open }) => ($open ? "0" : "20px")};
+  border-bottom-right-radius: ${({ $open }) => ($open ? "0" : "20px")};
 
         @media (max-width: 1050px) {
         height: 60px;
@@ -135,9 +133,9 @@ export const ContactButton = styled.a`
   text-decoration: none;
   cursor: pointer;
   color: white;
-  background: rgb(0, 153, 255);
+  background: #0366D6;
   border: 1px solid;
-  border-color: rgb(0, 153, 255);
+  border-color: #0366D6;
   border-radius: 5px;
   text-align: center;
   transition: 0.3s;
@@ -145,8 +143,8 @@ export const ContactButton = styled.a`
   font-size: 25px;
 
       &:hover {
-        background:#0F0FD6;
-        border-color: #0F0FD6;
+        background: rgb(0, 153, 255);
+        border-color:rgb(0, 153, 255);
     }
 `;
 

@@ -1,5 +1,5 @@
 import { ButtonWrapper, HeroButton, HeroContent, HeroHeader, HeroImage, HeroSection, HeroSubHeader, HeroWrapper } from "./styled";
-import heroImage from "./hero-stock.webp";
+import heroImage from "./images/hero-stock.webp";
 import { StaggeredContainer, StaggeredItem } from "../../animations/staggeredFadeIn";
 
 const Hero = () => (
@@ -20,7 +20,7 @@ const Hero = () => (
                     <StaggeredItem>
                         <ButtonWrapper>
                             <HeroButton>
-                                Skontaktuj się z nami
+                                Dowiedz się więcej
                             </HeroButton>
                         </ButtonWrapper>
                     </StaggeredItem>

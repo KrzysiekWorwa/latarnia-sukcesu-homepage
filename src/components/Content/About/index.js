@@ -1,6 +1,7 @@
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
-import { ContentHeader, Description, Wrapper } from "../styled";
-import { AboutWrapper } from "./styled";
+import { Button, ButtonWrapper, ContentHeader, Description, Wrapper } from "../styled";
+import { AboutUsContent, AboutUsImage, AboutUsSection, AboutWrapper } from "./styled";
+import image from "./images/team.webp"
 
 
 const About = () => (
@@ -19,6 +20,32 @@ const About = () => (
                     </Description>
                 </StaggeredItem>
             </AboutWrapper>
+        </StaggeredContainer>
+        <StaggeredContainer>
+            <AboutUsSection>
+                <StaggeredItem>
+                    <AboutUsImage src={image} alt="team photo" />
+                </StaggeredItem>
+                <AboutUsContent>
+                    <StaggeredItem>
+                        <ContentHeader>
+                            O nas
+                        </ContentHeader>
+                    </StaggeredItem>
+                    <StaggeredItem>
+                        <Description>
+                            Jesteśmy trzyosobowym zgranym zespołem z wieloletnim doświadczeniem w pozyskiwaniu funduszy dla Jednostek Samorządu Terytorialnego, Prywatnych Przedsiębiorców, a także 3 sektora (Stowarzyszenia). Nad Twoją sprawą pracować będzie cały zespół, doświadczenie pokazuje nam, iż jest to najlepsza forma na wyeliminowanie najmniejszych błędów oraz w sposób znaczący buduje jakość składanych dokumentów.
+                        </Description>
+                    </StaggeredItem>
+                    <StaggeredItem>
+                        <ButtonWrapper>
+                            <Button>
+                                Poznaj ofertę
+                            </Button>
+                        </ButtonWrapper>
+                    </StaggeredItem>
+                </AboutUsContent>
+            </AboutUsSection>
         </StaggeredContainer>
     </Wrapper>
 );
