@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.js": "/latarnia-sukcesu-homepage/static/js/main.27e854ec.js",
+    "main.js": "/latarnia-sukcesu-homepage/static/js/main.b5933e37.js",
     "static/js/453.4dac0492.chunk.js": "/latarnia-sukcesu-homepage/static/js/453.4dac0492.chunk.js",
     "static/media/team.webp": "/latarnia-sukcesu-homepage/static/media/team.665108614b96fd1ecdbe.webp",
     "static/media/cooperation.webp": "/latarnia-sukcesu-homepage/static/media/cooperation.081be9dd314e9427962d.webp",
     "static/media/hero-stock.webp": "/latarnia-sukcesu-homepage/static/media/hero-stock.debe3805b1b0432cd20f.webp",
+    "static/media/team3.webp": "/latarnia-sukcesu-homepage/static/media/team3.16daa7a6577ee2fac584.webp",
+    "static/media/team1.webp": "/latarnia-sukcesu-homepage/static/media/team1.a1aff297cc2cd39573d6.webp",
+    "static/media/team2.webp": "/latarnia-sukcesu-homepage/static/media/team2.04553e226f8943d99dbd.webp",
     "index.html": "/latarnia-sukcesu-homepage/index.html",
-    "main.27e854ec.js.map": "/latarnia-sukcesu-homepage/static/js/main.27e854ec.js.map",
+    "main.b5933e37.js.map": "/latarnia-sukcesu-homepage/static/js/main.b5933e37.js.map",
     "453.4dac0492.chunk.js.map": "/latarnia-sukcesu-homepage/static/js/453.4dac0492.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.27e854ec.js"
+    "static/js/main.b5933e37.js"
   ]
 }
