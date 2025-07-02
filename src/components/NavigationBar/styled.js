@@ -9,7 +9,8 @@ export const Navbar = styled.nav`
   transform: translateX(-50%);
   width: 96%;
   height: 90px;
-  background: #FBFBFE;
+  background-color: rgb(205 205 205 / 10%);
+  backdrop-filter: blur(10px); 
   z-index: 1000;
   display: flex;
   text-align: center;
@@ -63,7 +64,7 @@ export const NavLinks = styled.div`
 export const NavItem = styled(Link)`
   font-size: 20px;
   cursor: pointer;
-  color: rgb(93, 103, 122);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   transition: color 0.2s ease;
   text-align: center;
@@ -134,9 +135,9 @@ export const ContactButton = styled.a`
   text-decoration: none;
   cursor: pointer;
   color: white;
-  background:#090979;
+  background: rgb(0, 153, 255);
   border: 1px solid;
-  border-color:#090979;
+  border-color: rgb(0, 153, 255);
   border-radius: 5px;
   text-align: center;
   transition: 0.3s;
