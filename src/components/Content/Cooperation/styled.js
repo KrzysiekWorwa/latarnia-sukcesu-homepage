@@ -24,10 +24,6 @@ export const Tile = styled.li`
     align-items: center;
     gap: 20px;
     margin: 0;
-
-    @media (max-width: 767px) {
-        padding: 30px;
-    }
 `;
 
 export const TileNumber = styled.div`
