@@ -1,5 +1,5 @@
 import { Container, ContentHeader, Section, SectionBackground } from "../styled";
-import { ContentWrapper, EffectivenessIcon, ExperienceIcon, IndividualIcon, List, ListWrapper, ServiceIcon, Tile, TileDescription, TileName, TimeIcon, WhyUsContent, WhyUsImage, WhyUsSection } from "./styled";
+import { ContentWrapper, Counter, CounterDescription, CounterName, CounterWrapper, EffectivenessIcon, ExperienceIcon, IndividualIcon, List, ListWrapper, ServiceIcon, Tile, TileDescription, TileName, TimeIcon, WhyUsContent, WhyUsImage, WhyUsSection } from "./styled";
 import image from "./images/whyUs.webp"
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
 
@@ -86,6 +86,51 @@ const WhyUs = () => {
                         </WhyUsSection>
                     </StaggeredContainer>
                 </Container>
+                <StaggeredContainer>
+                    <CounterWrapper>
+                        <StaggeredItem>
+                            <Counter>
+                                <CounterName>
+                                    50 mln
+                                </CounterName>
+                                <CounterDescription>
+                                    Wspólnie pozyskanych dotacji
+                                </CounterDescription>
+                            </Counter>
+                        </StaggeredItem>
+                        <StaggeredItem>
+                            <Counter>
+                                <CounterName>
+                                    16
+                                </CounterName>
+                                <CounterDescription>
+                                    Lat doświadczenia <br />
+                                    w pozyskiwaniu dotacji
+                                </CounterDescription>
+                            </Counter>
+                        </StaggeredItem>
+                        <StaggeredItem>
+                            <Counter>
+                                <CounterName>
+                                    145
+                                </CounterName>
+                                <CounterDescription>
+                                    Rozliczonych projektów
+                                </CounterDescription>
+                            </Counter>
+                        </StaggeredItem>
+                        <StaggeredItem>
+                            <Counter>
+                                <CounterName>
+                                    200
+                                </CounterName>
+                                <CounterDescription>
+                                    Przedsiębiorstw rozwinęło się wspólnie z nami.
+                                </CounterDescription>
+                            </Counter>
+                        </StaggeredItem>
+                    </CounterWrapper>
+                </StaggeredContainer>
             </SectionBackground>
         </Section>
     )

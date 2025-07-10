@@ -154,3 +154,56 @@ export const TileDescription = styled.p`
         margin-top: 16px 0;
     }
 `;
+
+export const CounterWrapper = styled.ul`
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);;
+    grid-gap: 30px;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255 255 255 / 10%);
+    margin: 0;
+    padding: 20px 0;
+
+    @media (max-width: 991px) {
+        grid-template-columns: 1fr;
+        grid-gap: 24px;
+        padding: 0;
+    }
+`;
+
+export const Counter = styled.li`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 20px 0;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+`;
+
+export const CounterName = styled.h3`
+    font-weight: 700;
+    font-size: 90px;
+    margin: 0;
+`;
+
+export const CounterDescription = styled.p`
+    font-size: 24px;
+    line-height: 1.4;
+    color:rgb(199, 199, 199);
+    margin: 0;
+
+    ${Counter}:hover & {
+        color: white;
+    }
+
+    @media (max-width: 767px) {
+        margin-top: 16px 0;
+    }
+`;

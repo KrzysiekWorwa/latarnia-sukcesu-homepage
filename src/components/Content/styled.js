@@ -25,6 +25,7 @@ export const SectionBackground = styled.div`
   width: 100vw;
   background: rgb(0, 23, 63);
   color: white;
+  padding-bottom: 50px;
 `;
 
 export const ContentHeader = styled.h2`
