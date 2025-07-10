@@ -24,7 +24,7 @@ const Team = () => (
                 <StaggeredItem>
                     <TeamTile>
                         <TeamImage>
-                            <img src={team1} alt="Photo of first team member" />
+                            <img src={team1} alt="First team member" />
                         </TeamImage>
                         <TeamInfo>
                             <TeamName>
@@ -39,7 +39,7 @@ const Team = () => (
                 <StaggeredItem>
                     <TeamTile>
                         <TeamImage>
-                            <img src={team2} alt="Photo of second team member" />
+                            <img src={team2} alt="Second team member" />
                         </TeamImage>
                         <TeamInfo>
                             <TeamName>
@@ -54,7 +54,7 @@ const Team = () => (
                 <StaggeredItem>
                     <TeamTile>
                         <TeamImage>
-                            <img src={team3} alt="Photo of third team member" />
+                            <img src={team3} alt="Third team member" />
                         </TeamImage>
                         <TeamInfo>
                             <TeamName>

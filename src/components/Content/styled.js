@@ -16,6 +16,17 @@ export const Section = styled.section`
   flex-direction: column;
 `;
 
+export const SectionBackground = styled.div`
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  background: rgb(0, 23, 63);
+  color: white;
+`;
+
 export const ContentHeader = styled.h2`
     font-size: 60px;
     text-align: center;

@@ -1,6 +1,6 @@
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
-import { Container, ContentHeader, DescriptionLight, ImageWrapper, Section } from "../styled";
-import { List, ListWrapper, SectionBackground, Tile, TileDescription, TileName, TileNumber, TileWrapper } from "./styled";
+import { Container, ContentHeader, DescriptionLight, ImageWrapper, Section, SectionBackground } from "../styled";
+import { List, ListWrapper, Tile, TileDescription, TileName, TileNumber, TileWrapper } from "./styled";
 import image from "./images/cooperation.webp"
 
 
