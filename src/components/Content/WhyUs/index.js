@@ -1,5 +1,5 @@
 import { Container, ContentHeader, Section, SectionBackground } from "../styled";
-import { ContentWrapper, EffectivenessIcon, ExperienceIcon, IndividualIcon, List, ListWrapper, ServiceIcon, Tile, TileDescription, TileIcon, TileName, TimeIcon, WhyUsContent, WhyUsImage, WhyUsSection } from "./styled";
+import { ContentWrapper, EffectivenessIcon, ExperienceIcon, IndividualIcon, List, ListWrapper, ServiceIcon, Tile, TileDescription, TileName, TimeIcon, WhyUsContent, WhyUsImage, WhyUsSection } from "./styled";
 import image from "./images/whyUs.webp"
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
 

@@ -9,7 +9,7 @@ export const WhyUsSection = styled.div`
 padding: 0;
 padding-bottom: 50px;
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr auto;
 grid-gap: 50px;
 align-items: center;
 
@@ -21,7 +21,7 @@ align-items: center;
 `;
 
 export const WhyUsImage = styled.img`
-    width: clamp(128px, 40vw, 730px);
+    width: clamp(128px, 40vw, 650px);
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
