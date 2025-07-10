@@ -14,6 +14,7 @@ display: grid;
 grid-template-columns: auto 1fr;
 grid-gap: 72px;
 align-items: center;
+justify-content: center;
 
 @media (max-width: 991px) {
         grid-template-columns: 1fr; 
@@ -24,8 +25,9 @@ align-items: center;
 
 export const AboutUsImage = styled.img`
     width: clamp(128px, 30vw, 560px);
-    height: clamp(128px, 30vw, 560px);
+    height: 100%;
     object-fit: cover;
+    justify-self: center;
 
 @media (max-width: 991px) {
     width: 100%;

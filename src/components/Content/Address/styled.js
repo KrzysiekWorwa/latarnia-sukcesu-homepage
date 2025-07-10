@@ -19,7 +19,7 @@ export const AddressHeader = styled.h2`
 `;
 
 export const AddressSubHeader = styled.h3`
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 0;
         @media (max-width: 767px) {
         font-size: 20px;
@@ -60,7 +60,7 @@ export const AddressLink = styled.a`
 `;
 
 export const Info = styled.p`
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     max-width: 670px;
     line-height: 1.4;
