@@ -16,7 +16,7 @@ align-items: center;
 @media (max-width: 991px) {
         grid-template-columns: 1fr; 
         grid-template-rows: auto auto; 
-        grid-gap: 16px;
+        grid-gap: 24px;
     }
 `;
 
@@ -43,13 +43,8 @@ export const WhyUsContent = styled.div`
 export const ListWrapper = styled.div``;
 
 export const ContentWrapper = styled.div`
-    padding: 20px 0;
     height: 100%;
     text-align: center;
-
-        @media (max-width: 991px) {
-        padding: 0;
-    }
 `;
 
 export const List = styled.ul`
@@ -190,6 +185,10 @@ export const CounterName = styled.h3`
     font-weight: 700;
     font-size: 90px;
     margin: 0;
+
+        @media (max-width: 767px) {
+        font-size: 60px;
+    }
 `;
 
 export const CounterDescription = styled.p`

@@ -32,7 +32,7 @@ export const ContentHeader = styled.h2`
     text-align: center;
     
         @media (max-width: 767px) {
-            font-size: 30px;
+            font-size: 50px;
 }
 `;
 export const Description = styled.p`

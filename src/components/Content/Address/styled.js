@@ -14,6 +14,7 @@ export const AddressHeader = styled.h2`
     
     @media (max-width: 767px) {
         font-size: 32px;
+        text-align: center;
 }
 `;
 
@@ -21,12 +22,16 @@ export const AddressSubHeader = styled.h3`
     font-size: 24px;
     margin-top: 0;
         @media (max-width: 767px) {
-        font-size: 18px;
+        font-size: 20px;
 }
 `;
 
 export const AddressInfo = styled.address`
     font-style: normal;
+
+        @media (max-width: 767px) {
+        order: 2;
+}
 `;
 
 export const LinkWrapper = styled.div`
@@ -50,7 +55,7 @@ export const AddressLink = styled.a`
     }
 
     @media (max-width: 767px) {
-    font-size: 17px;
+    font-size: 20px;
 }
 `;
 
@@ -59,10 +64,6 @@ export const Info = styled.p`
     font-weight: 400;
     max-width: 670px;
     line-height: 1.4;
-
-    @media (max-width: 767px) {
-    font-size: 16px;
-}
 `;
 
 export const IconsWrapper = styled.div`
@@ -161,4 +162,8 @@ export const AddressImage = styled.div`
 
 export const Wrapper = styled.div`
   text-align: right;
+
+    @media (max-width: 767px) {
+        order: 1;
+    }
 `;

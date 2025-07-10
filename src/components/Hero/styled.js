@@ -72,7 +72,7 @@ export const HeroHeader = styled.h1`
 
     
     @media (max-width: 767px) {
-    font-size: 32px;
+    font-size: 50px;
     }
 `;
 
@@ -82,13 +82,13 @@ export const HeroSubHeader = styled.h2`
     margin: 0;
     
         @media (max-width: 767px) {
-        font-size: 18px;
+        font-size: 20px;
 }
 `;
 
 export const ButtonWrapper = styled.div`
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
 `;
 
 export const HeroButton = styled.a`
@@ -110,8 +110,4 @@ export const HeroButton = styled.a`
         border-color:rgb(0, 153, 255);
         color: white;
     }
-      @media (max-width: 767px) {
-        font-size: 18px;
-}
-
 `;
