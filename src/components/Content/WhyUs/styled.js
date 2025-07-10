@@ -162,7 +162,6 @@ export const CounterWrapper = styled.ul`
     list-style: none;
     text-align: center;
     align-items: center;
-    background-color: rgb(255 255 255 / 10%);
     margin: 0;
     padding: 20px 0;
 
@@ -196,11 +195,11 @@ export const CounterName = styled.h3`
 export const CounterDescription = styled.p`
     font-size: 24px;
     line-height: 1.4;
-    color:rgb(199, 199, 199);
+    color:rgb(90, 103, 119);;
     margin: 0;
 
     ${Counter}:hover & {
-        color: white;
+        color: black;
     }
 
     @media (max-width: 767px) {

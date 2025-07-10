@@ -4,8 +4,6 @@ export const HeroSection = styled.section`
     padding: 0 60px;
     padding-bottom: 60px;
     background: linear-gradient(180deg,rgb(7, 70, 179) 20%, rgb(0, 23, 63) 100%);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
 
         @media (max-width: 991px) {
             padding: 0 20px;

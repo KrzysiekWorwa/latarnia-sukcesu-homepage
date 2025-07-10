@@ -86,52 +86,52 @@ const WhyUs = () => {
                         </WhyUsSection>
                     </StaggeredContainer>
                 </Container>
-                <StaggeredContainer>
-                    <CounterWrapper>
-                        <StaggeredItem>
-                            <Counter>
-                                <CounterName>
-                                    50 mln
-                                </CounterName>
-                                <CounterDescription>
-                                    Wspólnie pozyskanych dotacji
-                                </CounterDescription>
-                            </Counter>
-                        </StaggeredItem>
-                        <StaggeredItem>
-                            <Counter>
-                                <CounterName>
-                                    16
-                                </CounterName>
-                                <CounterDescription>
-                                    Lat doświadczenia <br />
-                                    w pozyskiwaniu dotacji
-                                </CounterDescription>
-                            </Counter>
-                        </StaggeredItem>
-                        <StaggeredItem>
-                            <Counter>
-                                <CounterName>
-                                    145
-                                </CounterName>
-                                <CounterDescription>
-                                    Rozliczonych projektów
-                                </CounterDescription>
-                            </Counter>
-                        </StaggeredItem>
-                        <StaggeredItem>
-                            <Counter>
-                                <CounterName>
-                                    200
-                                </CounterName>
-                                <CounterDescription>
-                                    Przedsiębiorstw rozwinęło się wspólnie z nami.
-                                </CounterDescription>
-                            </Counter>
-                        </StaggeredItem>
-                    </CounterWrapper>
-                </StaggeredContainer>
             </SectionBackground>
+            <StaggeredContainer>
+                <CounterWrapper>
+                    <StaggeredItem>
+                        <Counter>
+                            <CounterName>
+                                50 mln
+                            </CounterName>
+                            <CounterDescription>
+                                Wspólnie pozyskanych dotacji
+                            </CounterDescription>
+                        </Counter>
+                    </StaggeredItem>
+                    <StaggeredItem>
+                        <Counter>
+                            <CounterName>
+                                16
+                            </CounterName>
+                            <CounterDescription>
+                                Lat doświadczenia <br />
+                                w pozyskiwaniu dotacji
+                            </CounterDescription>
+                        </Counter>
+                    </StaggeredItem>
+                    <StaggeredItem>
+                        <Counter>
+                            <CounterName>
+                                145
+                            </CounterName>
+                            <CounterDescription>
+                                Rozliczonych projektów
+                            </CounterDescription>
+                        </Counter>
+                    </StaggeredItem>
+                    <StaggeredItem>
+                        <Counter>
+                            <CounterName>
+                                200
+                            </CounterName>
+                            <CounterDescription>
+                                Przedsiębiorstw rozwinęło się dzięki naszej pomocy
+                            </CounterDescription>
+                        </Counter>
+                    </StaggeredItem>
+                </CounterWrapper>
+            </StaggeredContainer>
         </Section>
     )
 };
