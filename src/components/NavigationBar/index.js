@@ -38,14 +38,11 @@ const NavigationBar = () => {
                         Dlaczego my
                     </NavItem>
                     <NavItem to="address" smooth={true} duration={1400} offset={-150}>
-                        Dojazd i kontakt
-                    </NavItem>
-                    <NavItem to="partners" smooth={true} duration={1600} offset={-150}>
-                        Partnerzy
+                        Kontakt
                     </NavItem>
                 </NavLinks>
                 <NavIcons>
-                    <ContactButton>
+                    <ContactButton to="address" smooth={true} duration={1400} offset={-150}>
                         Kontakt
                     </ContactButton>
                 </NavIcons>
@@ -65,6 +62,9 @@ const NavigationBar = () => {
                     </NavItem>
                     <NavItem to="why" smooth={true} duration={1000} offset={-300}>
                         Dlaczego my
+                    </NavItem>
+                    <NavItem to="address" smooth={true} duration={1000} offset={-300}>
+                        Kontakt
                     </NavItem>
                 </MobileMenu>
             </NavWrapper>

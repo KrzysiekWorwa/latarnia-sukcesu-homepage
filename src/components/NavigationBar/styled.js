@@ -128,7 +128,7 @@ export const NavIcons = styled.div`
   }
 `;
 
-export const ContactButton = styled.a`
+export const ContactButton = styled(Link)`
   padding: 14px 30px;
   text-decoration: none;
   cursor: pointer;
