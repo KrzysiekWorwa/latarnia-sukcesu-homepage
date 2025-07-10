@@ -1,4 +1,5 @@
 import About from "./About";
+import Address from "./Address";
 import Cooperation from "./Cooperation";
 import { Container } from "./styled";
 import Team from "./Team";
@@ -11,6 +12,7 @@ const Content = () => {
             <Cooperation />
             <Team />
             <WhyUs />
+            <Address />
         </Container>
     );
 };
