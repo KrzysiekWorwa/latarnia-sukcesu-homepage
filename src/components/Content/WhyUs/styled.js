@@ -77,6 +77,11 @@ export const Tile = styled.li`
     gap: 20px;
     margin: 0;
     padding: 20px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 `;
 
 export const ExperienceIcon = styled(ExperienceIconLink)`
@@ -140,6 +145,10 @@ export const TileDescription = styled.p`
     line-height: 1.4;
     color:rgb(199, 199, 199);
     margin: 0;
+
+    ${Tile}:hover & {
+        color: white;
+    }
 
     @media (max-width: 767px) {
         margin-top: 16px 0;

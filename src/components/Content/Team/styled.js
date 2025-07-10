@@ -5,7 +5,7 @@ export const TeamList = styled.ul`
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
     list-style: none;
-        align-items: center;
+    align-items: center;
     justify-content: center;
     padding: 0;
     padding-bottom: 50px;
