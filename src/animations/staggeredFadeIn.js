@@ -28,5 +28,5 @@ export const StaggeredContainer = ({ children }) => (
 );
 
 export const StaggeredItem = ({ children }) => (
-  <motion.div style={{ width: "100%", willChange: "transform, opacity" }} variants={itemVariants}>{children}</motion.div>
+  <motion.div style={{ width: "100%", height: "100%", willChange: "transform, opacity" }} variants={itemVariants}>{children}</motion.div>
 );

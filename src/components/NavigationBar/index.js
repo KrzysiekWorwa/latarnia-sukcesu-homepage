@@ -34,8 +34,8 @@ const NavigationBar = () => {
                     <NavItem to="team" smooth={true} duration={1000} offset={-100}>
                         Zespół
                     </NavItem>
-                    <NavItem to="rowery" smooth={true} duration={1200} offset={-150}>
-                        Wypożyczalnia rowerów
+                    <NavItem to="why" smooth={true} duration={1200} offset={-100}>
+                        Dlaczego my
                     </NavItem>
                     <NavItem to="address" smooth={true} duration={1400} offset={-150}>
                         Dojazd i kontakt
@@ -62,6 +62,9 @@ const NavigationBar = () => {
                     </NavItem>
                     <NavItem to="team" smooth={true} duration={1000} offset={-300}>
                         Zespół
+                    </NavItem>
+                    <NavItem to="why" smooth={true} duration={1000} offset={-300}>
+                        Dlaczego my
                     </NavItem>
                 </MobileMenu>
             </NavWrapper>

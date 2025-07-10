@@ -1,4 +1,9 @@
 import styled from "styled-components";
+import { ReactComponent as ExperienceIconLink } from "./svgIcons/experience.svg"
+import { ReactComponent as EffectivenessIconLink } from "./svgIcons/effectiveness.svg"
+import { ReactComponent as IndividualIconLink } from "./svgIcons/individual.svg"
+import { ReactComponent as ServiceIconLink } from "./svgIcons/service.svg"
+import { ReactComponent as TimeIconLink } from "./svgIcons/time.svg"
 
 export const WhyUsSection = styled.div`
 padding: 0;
@@ -41,6 +46,10 @@ export const ContentWrapper = styled.div`
     padding: 20px 0;
     height: 100%;
     text-align: center;
+
+        @media (max-width: 991px) {
+        padding: 0;
+    }
 `;
 
 export const List = styled.ul`
@@ -55,6 +64,7 @@ export const List = styled.ul`
     @media (max-width: 991px) {
         grid-template-columns: 1fr;
         grid-gap: 24px;
+        padding: 0;
     }
     `;
 
@@ -67,24 +77,56 @@ export const Tile = styled.li`
     gap: 20px;
     margin: 0;
     padding: 20px;
-
-     @media (max-width: 991px) {
-        max-width: none;
-    }
 `;
 
-export const TileIcon = styled.div`
+export const ExperienceIcon = styled(ExperienceIconLink)`
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    font-size: 25px;
-    font-weight: bold;
     color: white;
-    background-color: #0366D6;
     height: 50px;
     width: 50px;
-    border-radius: 50%;
+`;
+
+export const EffectivenessIcon = styled(EffectivenessIconLink)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+`;
+
+export const IndividualIcon = styled(IndividualIconLink)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+`;
+
+export const ServiceIcon = styled(ServiceIconLink)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+`;
+
+export const TimeIcon = styled(TimeIconLink)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
 `;
 
 export const TileName = styled.h3`
