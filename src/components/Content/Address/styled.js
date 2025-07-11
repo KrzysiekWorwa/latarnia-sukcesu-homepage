@@ -3,7 +3,6 @@ import { ReactComponent as FacebookIconLink } from "./SvgIcons/facebookIcon.svg"
 import { ReactComponent as InstagramIconLink } from "./SvgIcons/instagramIcon.svg";
 import { ReactComponent as PhoneIconLink } from "./SvgIcons/phone.svg";
 import { ReactComponent as MailIconLink } from "./SvgIcons/mail.svg";
-import { ReactComponent as PinIconLink } from "./SvgIcons/pin.svg";
 
 export const AddressSection = styled.section``;
 
