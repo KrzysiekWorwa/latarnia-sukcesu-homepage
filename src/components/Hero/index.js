@@ -15,7 +15,7 @@ const Hero = () => (
                     </StaggeredItem>
                     <StaggeredItem>
                         <HeroSubHeader>
-                            Twój pokład potrzebuje środków na rozwój lub założenie działalności? Jesteś w idealnym miejscu!
+                            Jeśli potrzebujesz środków finansowych na rozwój swoich planów inwestycyjnych, to jesteś w idealnym miejscu!
                         </HeroSubHeader>
                     </StaggeredItem>
                     <StaggeredItem>
