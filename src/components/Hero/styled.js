@@ -95,10 +95,10 @@ export const HeroButton = styled.a`
   padding: 14px 30px;
   text-decoration: none;
   cursor: pointer;
-  color: black;
-  background:  #ffd700;
+  color: white;
+  background:  #ffc10e;
   border: 1px solid;
-  border-color: #ffd700;
+  border-color: #ffc10e;
   border-radius: 5px;
   text-align: center;
   transition: 0.3s;
@@ -106,8 +106,8 @@ export const HeroButton = styled.a`
   font-size: 25px;
 
       &:hover {
-        background:#ffc10a;
-        border-color:#ffc10a;
+        background:#ffd700;
+        border-color:#ffd700;
         color: white;
     }
 `;

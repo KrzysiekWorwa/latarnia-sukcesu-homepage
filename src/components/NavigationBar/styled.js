@@ -4,19 +4,15 @@ import { Link } from "react-scroll";
 
 export const Navbar = styled.nav`
   position: fixed;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 96%;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 90px;
   background-color: rgb(0 0 0 / 30%);
   backdrop-filter: blur(10px); 
   z-index: 1000;
   display: flex;
   text-align: center;
-  border-radius: 20px;
-  border-bottom-left-radius: ${({ $open }) => ($open ? "0" : "20px")};
-  border-bottom-right-radius: ${({ $open }) => ($open ? "0" : "20px")};
 
         @media (max-width: 1050px) {
         height: 60px;
@@ -64,7 +60,7 @@ export const NavItem = styled(Link)`
   cursor: pointer;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color 0.3s ease;
   text-align: center;
 
      @media (max-width: 1050px) {
@@ -72,7 +68,7 @@ export const NavItem = styled(Link)`
   }
 
   &:hover {
-    color: rgb(217, 217, 217);
+    color: #ffc40b;
 
          @media (max-width: 1050px) {
         color:#090979;
@@ -132,10 +128,10 @@ export const ContactButton = styled(Link)`
   padding: 14px 30px;
   text-decoration: none;
   cursor: pointer;
-  color: black;
-  background: #ffd700;
+  color: white;
+  background: #ffc10e;
   border: 1px solid;
-  border-color: #ffd700;
+  border-color: #ffc10e;
   border-radius: 5px;
   text-align: center;
   transition: 0.3s;
@@ -143,8 +139,8 @@ export const ContactButton = styled(Link)`
   font-size: 25px;
 
       &:hover {
-        background: #ffc10e;
-        border-color:#ffc10e;
+        background: #ffd700;
+        border-color: #ffd700;
         color: white;
     }
 `;

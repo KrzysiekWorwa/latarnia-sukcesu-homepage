@@ -79,56 +79,6 @@ export const Tile = styled.li`
     }
 `;
 
-export const ExperienceIcon = styled(ExperienceIconLink)`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: white;
-    height: 50px;
-    width: 50px;
-`;
-
-export const EffectivenessIcon = styled(EffectivenessIconLink)`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: white;
-    height: 50px;
-    width: 50px;
-`;
-
-export const IndividualIcon = styled(IndividualIconLink)`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: white;
-    height: 50px;
-    width: 50px;
-`;
-
-export const ServiceIcon = styled(ServiceIconLink)`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: white;
-    height: 50px;
-    width: 50px;
-`;
-
-export const TimeIcon = styled(TimeIconLink)`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: white;
-    height: 50px;
-    width: 50px;
-`;
-
 export const TileName = styled.h3`
     font-weight: 700;
     font-size: 24px;
@@ -140,6 +90,7 @@ export const TileDescription = styled.p`
     line-height: 1.4;
     color:rgb(199, 199, 199);
     margin: 0;
+    transition: color 0.3s ease;
 
     ${Tile}:hover & {
         color: white;
@@ -181,6 +132,81 @@ export const Counter = styled.li`
     }
 `;
 
+export const ExperienceIcon = styled(ExperienceIconLink)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    transition: color 0.3s ease;
+
+        ${Tile}:hover & {
+        color: #ffd700;
+    }
+`;
+
+export const EffectivenessIcon = styled(EffectivenessIconLink)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    transition: color 0.3s ease;
+
+        ${Tile}:hover & {
+        color: #ffd700;
+    }
+`;
+
+export const IndividualIcon = styled(IndividualIconLink)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    transition: color 0.3s ease;
+
+        ${Tile}:hover & {
+        color: #ffd700;
+    }
+`;
+
+export const ServiceIcon = styled(ServiceIconLink)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    transition: color 0.3s ease;
+
+        ${Tile}:hover & {
+        color: #ffd700;
+    }
+`;
+
+export const TimeIcon = styled(TimeIconLink)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    transition: color 0.3s ease;
+
+        ${Tile}:hover & {
+        color: #ffd700;
+    }
+`;
+
 export const CounterName = styled.h3`
     font-weight: 700;
     font-size: 90px;
@@ -202,6 +228,6 @@ export const CounterDescription = styled.p`
     }
 
     @media (max-width: 767px) {
-        margin-top: 16px 0;
+        margin-top: 16px;
     }
 `;

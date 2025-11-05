@@ -45,10 +45,14 @@ export const TileNumber = styled.div`
     font-size: 25px;
     font-weight: bold;
     color: white;
-    background-color: #0366D6;
+    background-color: #ffc40b;
     height: 50px;
     width: 50px;
     border-radius: 50%;
+
+        ${Tile}:hover & {
+        background-color: #ffd700;
+    }
 `;
 
 export const TileName = styled.h3`
@@ -62,6 +66,7 @@ export const TileDescription = styled.p`
     line-height: 1.4;
     color:rgb(199, 199, 199);
     margin: 0;
+    transition: color 0.3s ease;
 
     ${Tile}:hover & {
         color: white;

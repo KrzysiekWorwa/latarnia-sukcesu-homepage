@@ -23,7 +23,7 @@ export const SectionBackground = styled.div`
   margin-left: -50vw;
   margin-right: -50vw;
   width: 100vw;
-  background: rgb(0, 23, 63);
+  background: #00173fff;
   color: white;
 `;
 
@@ -67,9 +67,9 @@ export const Button = styled.a`
   text-decoration: none;
   cursor: pointer;
   color: white;
-  background: #0366D6;
+  background: #ffc10e;
   border: 1px solid;
-  border-color: #0366D6;
+  border-color: #ffc10e;
   border-radius: 5px;
   text-align: center;
   transition: 0.3s;
@@ -77,8 +77,9 @@ export const Button = styled.a`
   display: inline-block;
 
       &:hover {
-        background: rgb(0, 153, 255);
-        border-color:rgb(0, 153, 255);
+        background: #ffd700;
+        border-color: #ffd700;
+        color: white;
     }
 `;
 
