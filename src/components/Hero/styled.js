@@ -9,7 +9,6 @@ export const HeroSection = styled.section`
             padding: 0 20px;
             height: auto;
     }
-
 `;
 
 export const HeroWrapper = styled.div`
@@ -74,6 +73,10 @@ export const HeroHeader = styled.h1`
     @media (max-width: 767px) {
     font-size: 50px;
     }
+
+    @media (max-width: 390px) {
+    font-size: 40px;
+    }
 `;
 
 export const HeroSubHeader = styled.h2`
@@ -109,5 +112,9 @@ export const HeroButton = styled.a`
         background:#ffd700;
         border-color:#ffd700;
         color: white;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 20px;
     }
 `;

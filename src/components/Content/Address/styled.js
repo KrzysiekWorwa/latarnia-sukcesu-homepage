@@ -56,6 +56,9 @@ export const AddressLink = styled.a`
     @media (max-width: 767px) {
     font-size: 20px;
 }
+    @media (max-width: 390px) {
+    font-size: 17px;
+}
 `;
 
 export const Info = styled.p`
