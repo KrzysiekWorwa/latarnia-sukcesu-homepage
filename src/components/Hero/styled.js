@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeroSection = styled.section`
     padding: 0 60px;
     padding-bottom: 60px;
-    background: linear-gradient(180deg,rgb(7, 70, 179) 20%, rgb(0, 23, 63) 100%);
+    background: #00173f;
 
         @media (max-width: 991px) {
             padding: 0 20px;
@@ -96,9 +96,9 @@ export const HeroButton = styled.a`
   text-decoration: none;
   cursor: pointer;
   color: black;
-  background:  #FBFBFE;
+  background:  #ffd700;
   border: 1px solid;
-  border-color: #FBFBFE;
+  border-color: #ffd700;
   border-radius: 5px;
   text-align: center;
   transition: 0.3s;
@@ -106,8 +106,8 @@ export const HeroButton = styled.a`
   font-size: 25px;
 
       &:hover {
-        background:rgb(0, 153, 255);
-        border-color:rgb(0, 153, 255);
+        background:#ffc10a;
+        border-color:#ffc10a;
         color: white;
     }
 `;

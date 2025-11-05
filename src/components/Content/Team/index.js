@@ -14,7 +14,7 @@ const Team = () => (
             </StaggeredItem>
             <StaggeredItem>
                 <Description>
-                    Nasz zespół to doświadczeni przedsiębiorcy, którzy doskonale rozumieją Twoje potrzeby i realia prowadzenia biznesu. Tworzymy zespół ekspertów z głęboką znajomością rynku i mechanizmów pozyskiwania funduszy.
+                    Nasz zespół to doświadczeni przedsiębiorcy, ludzie, którzy angażują się w rozwój lokalny swoich miejscowości, na co dzień współpracujących z samorządami gminnymi, powiatowymi i wojewódzkimi, którzy doskonale rozumieją Twoje potrzeby i realia prowadzenia biznesu bądź instytucji. Tworzymy zespół ekspertów z głęboką znajomością rynku i mechanizmów pozyskiwania funduszy.
                 </Description>
             </StaggeredItem>
         </StaggeredContainer>

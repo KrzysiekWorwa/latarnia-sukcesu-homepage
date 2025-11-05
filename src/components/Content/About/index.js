@@ -17,8 +17,15 @@ const About = () => (
                 </StaggeredItem>
                 <StaggeredItem>
                     <Description>
-                        Nasz wyspecjalizowany zespół od wielu lat zajmuje się pozyskiwaniem środków na rozwój działalności/zakładanie działalności. W oparciu o nasze doświadczenie przeprowadzimy Cię przez cały proces uzyskania funduszy. Zajmujemy się znalezieniem odpowiedniego dofinansowania pod Twój biznes, weryfikujemy już na wstępie szanse na uzyskanie środków, kompletujemy wspólnie niezbędną dokumentacje, a następnie tworzymy projekt gotowy do złożenia. Jesteśmy wsparciem przy Tworzeniu, rozliczeniu, uzupełnieniu wniosku.
+                        Nasz wyspecjalizowany zespół od wielu lat zajmuje się pozyskiwaniem środków na rozwój i podjęcie działalności gospodarczej, na realizację zamierzonych celów organizacji pozarządowych. Wspieramy ponadto samorządy w drodze do urozmaicenia oferty kulturalno-infrastrukturalnej.
                     </Description>
+                    <Description>
+                        W oparciu o nasze doświadczenie przeprowadzimy Cię przez cały proces uzyskania funduszy. Zajmujemy się dopasowaniem dofinasowania do konkretnych potrzeb pod Twój biznes czy działania statutowe. Już na wstępie weryfikujemy Twoje szanse na uzyskanie środków, kompletujemy wspólnie niezbędną dokumentacje, a następnie tworzymy projekt gotowy do złożenia.
+                    </Description>
+                    <Description>
+                        Na każdym etapie przygotowania dokumentacji jesteśmy do Twojej dyspozycji.
+                    </Description>
+
                 </StaggeredItem>
             </StaggeredContainer>
         </AboutWrapper>
@@ -36,7 +43,10 @@ const About = () => (
                     </StaggeredItem>
                     <StaggeredItem>
                         <Description>
-                            Jesteśmy trzyosobowym zgranym zespołem z wieloletnim doświadczeniem w pozyskiwaniu funduszy dla Jednostek Samorządu Terytorialnego, Prywatnych Przedsiębiorców, a także 3 sektora (Stowarzyszenia). Nad Twoją sprawą pracować będzie cały zespół, doświadczenie pokazuje nam, iż jest to najlepsza forma na wyeliminowanie najmniejszych błędów oraz w sposób znaczący buduje jakość składanych dokumentów.
+                            Jesteśmy trzyosobowym zgranym zespołem, z wieloletnim doświadczeniem w pozyskiwaniu funduszy dla Jednostek Samorządu Terytorialnego, Prywatnych Przedsiębiorców, a także 3 sektora (Stowarzyszenia, Fundacje).
+                        </Description>
+                        <Description>
+                            Nad Twoją sprawą pracować będzie cały zespół, gdyż doświadczenie pokazuje nam, iż jest to najlepsza forma na wyeliminowanie najmniejszych błędów oraz w sposób znaczący buduje jakość składanych dokumentów.
                         </Description>
                     </StaggeredItem>
                     <StaggeredItem>

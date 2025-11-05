@@ -16,7 +16,7 @@ const Cooperation = () => (
                     </StaggeredItem>
                     <StaggeredItem>
                         <DescriptionLight>
-                            Specjalizujemy się w pozyskiwaniem funduszy z najróżniejszych źródeł. Jesteśmy doświadczeni w pozyskiwaniu funduszy na małe projekty o tematyce miękkiej, kulturalnej itp., jak również odnieśliśmy już sukcesy w projektach na ogromną skalę.
+                            Specjalizujemy się w pozyskiwaniem funduszy z najróżniejszych źródeł. Z uwagi na nasze zaangażowanie w organizacjach społecznych, bardzo bliskie nam są wnioski na rozwój sektora kulturalnego oraz turystycznego, ale jednak głównym kierunkiem naszego wsparcia dla Was są wnioski na tworzenie działalności gospodarczych i ich rozwój.
                         </DescriptionLight>
                     </StaggeredItem>
                 </StaggeredContainer>
